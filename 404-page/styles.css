@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+nav h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    margin: 50px 0 0 50px ;
+}
+h1, p, button {
+    font-family: 'Space Mono', monospace;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+.css-button-sharp{
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border: 2px solid #212529;
+        background: #212529;
+}
+.css-button-sharp:hover {
+        background: #fff;
+        color: #212529
+}
+.flex-container{
+    margin-top: 200px;
+    display: flex;
+}
+.scarecrow img{
+    width: 60%;
+    margin-left: 100px;
+}
+.news{
+    margin-right: 150px;
+}
